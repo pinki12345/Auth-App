@@ -1,0 +1,89 @@
+table {
+  border-collapse: collapse;
+  max-width: 900px;
+  width: 100%;
+  margin: 2rem auto;
+}
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.logo-image {
+  width: 100%;
+  height: 105%;
+}
+@media (max-width: 600px) {
+  .logo-image {
+    display: none;
+  }
+}
+
+/* .dashboard{
+   box-sizing: border-box;
+} */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.logContainer {
+  background-color: #59728e;
+  width: 100%;
+  height: 100vh;
+  padding: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.text-field {
+  padding: 9px 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.common {
+  padding: 0px;
+  margin: 0px;
+  /* background: rgba(45, 98, 129, 0.3)  */
+}
+.dashboard {
+  height: 100%;
+}
